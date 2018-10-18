@@ -1,0 +1,21 @@
+To start switchyard:
+
+run mininet:
+$sudo mn --mac
+
+In mininet, start xterm for each host:
+> xterm h1
+> xterm h2
+
+In each hosts window make sure the current directory is ~/lab2/parta/
+h1> pwd
+
+Then start switchyard:
+h1> python3 switchyard/swyard.py main.py
+
+Optionally include "-d" to start switchyard with debug messages printed.
+
+
+
+To change the number of host machines to 4, run:
+$sudo ./start_mn.py 4

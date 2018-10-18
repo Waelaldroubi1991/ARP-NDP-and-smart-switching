@@ -1,0 +1,21 @@
+This exercise is taken from https://github.com/jsommers/switchyard/tree/master/examples/exercises/learning_switch
+
+You have two options for running Switchyard here in part (b).
+
+Either:
+
+1) install and run via venv as per the instructions in the switchyard documentation:
+   (from https://github.com/jsommers/switchyard)
+
+On the mininet host machines:
+$ python3 -m venv syenv
+$ source ./syenv/bin/activate
+$ python3 -m pip install switchyard
+
+=== or ===
+
+2) run as per part (a), with the command 'python3 switchyard/swyard.py myswitch.py -d' on the mininet host machines
+
+====
+
+Note: installing switchyard in other ways may issues running lab 1.
